@@ -16,6 +16,9 @@ public class printdate {
 		SimpleDateFormat d2=new SimpleDateFormat("d/M/yyyy hh:mm:ss");
 		System.out.println(d2.format(d));
 		
+		SimpleDateFormat d3=new SimpleDateFormat("hh:mm:ss yyyy/M/d ");
+		System.out.println(d3.format(d));
+		
 		
 
 	}
