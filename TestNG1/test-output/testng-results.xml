@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-05T13:13:45 IST" name="Default suite" finished-at="2023-03-05T13:13:45 IST" duration-ms="57">
+    <groups>
+    </groups>
+    <test started-at="2023-03-05T13:13:45 IST" name="Default test" finished-at="2023-03-05T13:13:45 IST" duration-ms="57">
+      <class name="test.test1">
+        <test-method signature="check3()[pri:0, instance:test.test1@776b83cc]" started-at="2023-03-05T13:13:45 IST" name="check3" finished-at="2023-03-05T13:13:45 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check3 -->
+        <test-method signature="check1()[pri:0, instance:test.test1@776b83cc]" started-at="2023-03-05T13:13:45 IST" name="check1" finished-at="2023-03-05T13:13:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check1 -->
+        <test-method signature="check2()[pri:0, instance:test.test1@776b83cc]" started-at="2023-03-05T13:13:45 IST" name="check2" finished-at="2023-03-05T13:13:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check2 -->
+        <test-method signature="check4()[pri:0, instance:test.test1@776b83cc]" started-at="2023-03-05T13:13:45 IST" name="check4" finished-at="2023-03-05T13:13:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check4 -->
+        <test-method signature="check5()[pri:0, instance:test.test1@776b83cc]" started-at="2023-03-05T13:13:45 IST" name="check5" finished-at="2023-03-05T13:13:45 IST" depends-on-methods="test.test1.check3" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check5 -->
+      </class> <!-- test.test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

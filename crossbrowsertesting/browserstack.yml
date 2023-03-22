@@ -1,0 +1,16 @@
+userName: pranaydhanawade1
+accessKey: emwc4gkxEsehmRmSk57P
+framework: testng
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: 89.0
+  - os: Windows
+    osVersion: 10
+    browserName: Firefox
+    browserVersion: 90.0
+  - os: OS X
+    osVersion: Sierra
+    browserName: Safari
+    browserVersion: 10.1

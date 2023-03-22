@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="username" value="123456"/>
+    <classes>
+      <class name="Testng1.employee">
+        <methods>
+          <include name="aftersuite"/>
+          <include name="team1"/>
+        </methods>
+      </class> <!-- Testng1.employee -->
+      <class name="Testng1.URL">
+        <methods>
+          <include name="website"/>
+        </methods>
+      </class> <!-- Testng1.URL -->
+      <class name="Testng1.test2">
+        <methods>
+          <include name="check2"/>
+        </methods>
+      </class> <!-- Testng1.test2 -->
+      <class name="Testng1.days">
+        <methods>
+          <include name="third"/>
+          <include name="first"/>
+          <include name="Eight"/>
+        </methods>
+      </class> <!-- Testng1.days -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
